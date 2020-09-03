@@ -1,6 +1,6 @@
-# Spatial Temporal Artificial Intelligence Library
+# STAI Library
 
-STAI 函式庫定義
+STAI(Spatial Temporal Artificial Intelligence) 函式庫定義
 
 - TT (Track and Trace)
 
