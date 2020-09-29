@@ -9,4 +9,5 @@ import (
 type STAILibrary interface {
 	GetServTrackTrace() tt.TrackTrace
 	GetServCBE() cbe.CBEServ
+	GetVersion() string
 }
