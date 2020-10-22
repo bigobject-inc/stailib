@@ -1,6 +1,6 @@
 package cbe
 
-// CBEObjStruct :
+// CBEObjStruct : CBEObjStruct
 type CBEObjStruct interface {
 	// get info from frame
 	GetFrameID() string
@@ -18,6 +18,7 @@ type CBEObjStruct interface {
 	GetBox() BoundingBox
 	GetLocation() Location
 	GetTag(label, name string) (v interface{})
+	GetFrameInfo() CBE
 
 	// set object info
 	SetGlobalID(globalID string)
