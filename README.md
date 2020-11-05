@@ -1,4 +1,4 @@
-# STAI Library ver-1.1.0
+# STAI Library ver-1.2.0
 
 STAI `Spatial Temporal Artificial Intelligence` 函式庫定義
 
@@ -15,6 +15,10 @@ STAI `Spatial Temporal Artificial Intelligence` 函式庫定義
     - cbe.go: 相當於 frame
     - cbeobjstruct.go: 相當於 frame 裡面的 objects
     - cbe.type.go: 裡面有 BoundingBox 和 Location
+
+- CS (Configuration Server)
+
+    - 可以直接用 api.go 裡的 API() call configuration server 裡的 API
 
 ## Changelog
 
