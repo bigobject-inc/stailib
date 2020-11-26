@@ -2,6 +2,7 @@ package cbe
 
 // CBE CBEFrame
 type CBE interface {
+	GetSerialNumber() int64
 	GetFrameID() string
 	GetSensorID() string
 	GetTimestamp() int
@@ -13,6 +14,7 @@ type CBE interface {
 	GetObjByIndex(index int) CBEObjStruct
 	GetTObjects() []CBEObjStruct
 
+	SetSerialNumber(serialNumber int64)
 	SetFrameID(frameID string)
 	SetSensorID(sensorID string)
 
