@@ -25,4 +25,5 @@ type Node struct {
 	Confidence           float64         `json:"confidence"`
 	GeoLocation          cbe.Location    `json:"location"`
 	BoundingBox          cbe.BoundingBox `json:"boundingBox"`
+	Tag                  interface{}     `json:"tag"`
 }
