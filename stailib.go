@@ -2,8 +2,8 @@ package stailib
 
 import (
 	"github.com/bigobject-inc/stailib/cbe"
-	"github.com/bigobject-inc/stailib/tt"
 	"github.com/bigobject-inc/stailib/cs"
+	"github.com/bigobject-inc/stailib/tt"
 )
 
 // STAILibrary STAI library
