@@ -9,4 +9,6 @@ type STAILibrary interface {
 // ConfigServerAPI configuration server API service
 type ConfigServerAPI interface {
 	API(method string, postfix string) (body []byte, err error)
+	ClearCache() (err error)
+	Defer() (err error)
 }
