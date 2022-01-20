@@ -5,6 +5,10 @@ type CBE interface {
 	GetSerialNumber() int64
 	GetFrameID() string
 	GetSensorID() string
+	GetFloorPlanID() string
+	GetAreaID() string
+	GetFieldID() string
+
 	GetTimestamp() int
 	GetMicrosecond() int64
 	GetObjNumber() int
@@ -17,6 +21,9 @@ type CBE interface {
 	SetSerialNumber(serialNumber int64)
 	SetFrameID(frameID string)
 	SetSensorID(sensorID string)
+	SetFloorPlanID(floorPlanID string)
+	SetAreaID(areaID string)
+	SetFieldID(fieldID string)
 
 	SetTimestamp(timestamp int)
 	SetMicrosecond(timestampMicrosecond int64)

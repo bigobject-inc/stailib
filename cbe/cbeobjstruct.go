@@ -5,6 +5,10 @@ type CBEObjStruct interface {
 	// get info from frame
 	GetFrameID() string
 	GetSensorID() string
+	GetFloorPlanID() string
+	GetAreaID() string
+	GetFieldID() string
+
 	GetTimestamp() int
 
 	// get object info
