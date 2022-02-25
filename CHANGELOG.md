@@ -5,11 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [v1.8.0] - 2022-02-25
+
+### Added
+
+- cs: add ClientCredentials in APISetting
+
+
 ## [v1.7.0] - 2022-01-20
 
 ### Added
 
-cbe: add functions of floorplan, area, field
+- cbe: add functions of floorplan, area, field
 
 
 ## [v1.6.0] - 2021-09-15
@@ -65,6 +73,7 @@ cbe: add functions of floorplan, area, field
 - Add track and trace
 
 
+[v1.8.0]: github.com/bigobject-inc/stailib/archive/v1.8.0
 [v1.7.0]: github.com/bigobject-inc/stailib/archive/v1.7.0
 [v1.6.0]: github.com/bigobject-inc/stailib/archive/v1.6.0
 [v1.5.0]: github.com/bigobject-inc/stailib/archive/v1.5.0
