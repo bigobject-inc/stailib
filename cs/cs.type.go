@@ -5,6 +5,7 @@ type APISetting struct {
 	Address           string `json:"address"`
 	Port              string `json:"port"`
 	ClientCredentials bool   `json:"clientCredentials"` // if true, then User become client_id,  Password become client_secret
+	Https             bool   `json:"https"`
 	User              string `json:"user"`
 	Password          string `json:"password"`
 	CacheTimeout      int    `json:"cacheTimeout"`
