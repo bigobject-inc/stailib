@@ -83,3 +83,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [v1.1.0]: github.com/bigobject-inc/stailib/archive/v1.1.0
 [v1.0.0]: github.com/bigobject-inc/stailib/archive/v1.0.0
 [v0.1.0]: github.com/bigobject-inc/stailib/archive/v0.1.0
+
