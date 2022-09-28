@@ -1,4 +1,4 @@
-# STAI Library ver-1.8.1
+# STAI Library ver-1.8.2
 
 STAI `Spatial Temporal Artificial Intelligence` 函式庫定義
 
