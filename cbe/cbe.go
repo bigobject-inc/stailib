@@ -17,6 +17,7 @@ type CBE interface {
 	GetObjByTrackingID(trackingID int) CBEObjStruct
 	GetObjByIndex(index int) CBEObjStruct
 	GetTObjects() []CBEObjStruct
+	GetExecutionTS() int64
 
 	SetSerialNumber(serialNumber int64)
 	SetFrameID(frameID string)
@@ -29,5 +30,6 @@ type CBE interface {
 	SetMicrosecond(timestampMicrosecond int64)
 
 	SetTObjects(tObjects []CBEObjStruct)
+	SetExecutionTS(executionTs int64)
 	BuildGlobalIDIndex()
 }
